@@ -14,39 +14,6 @@ Bu proje, veri bilimi öğrenme sürecinde:
 
 ---
 
-##  Proje Yapısı
-LR_LungVolume/
-│
-├── data/
-│ ├── raw/ # Kaggle'dan indirilen ham veriler
-│ └── processed/ # Temizlenmiş ve ölçeklenmiş train/test CSV'leri
-│
-├── models/ # Eğitilen model (.pkl) ve scaler dosyası
-│
-├── reports/ # Model metrikleri (MAE, MSE, R²)
-│
-├── notebooks/
-│ └── analysis.ipynb # Adım adım EDA + model eğitimi + tahmin
-│
-├── scripts/ # Yardımcı scriptler (EDA, görselleştirme, pipeline vb.)
-│ ├── explore.py
-│ ├── visualize.py
-│ ├── pipeline.py
-│ └── predict_tools.py
-│
-├── src/ # Ana işlem kodları
-│ ├── config.py # Yol, değişken, parametre tanımları
-│ ├── download.py # Kaggle veri indirme
-│ ├── prepare.py # Veri temizleme ve ölçeklendirme
-│ ├── train.py # Model eğitimi ve metrik kaydı
-│ └── predict.py # Tahmin arayüzü
-│
-├── requirements.txt # Gerekli kütüphaneler
-└── README.md # Bu dosya :)
-
-
----
-
 ##  Kullanılan Teknolojiler ve Kütüphaneler
 
 | Kütüphane | Amaç |
